@@ -41,8 +41,14 @@ $ yarn start:dev
 ```bash
 # script
 $ db-up
+```
 
 o
 
-$ docker-compose up -d
 ```
+docker-compose up -d
+```
+
+## Environment variables
+
+copy the file _.env.template_ and rename .env.prod, .env... complete de fields with credentials for database
