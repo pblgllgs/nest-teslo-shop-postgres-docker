@@ -49,6 +49,12 @@ o
 docker-compose up -d
 ```
 
+Seed the db
+
+```
+http://localhost:3000/api/seed
+```
+
 ## Environment variables
 
 copy the file _.env.template_ and rename .env.prod, .env... complete de fields with credentials for database
