@@ -49,7 +49,7 @@ o
 docker-compose up -d
 ```
 
-Seed the db
+Seed the database
 
 ```
 http://localhost:3000/api/seed
