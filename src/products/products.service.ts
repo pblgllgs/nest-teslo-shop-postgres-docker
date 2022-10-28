@@ -127,12 +127,12 @@ export class ProductsService {
     await this.productRepository.remove(product);
   }
 
-  private handleDBExceptions(error: any) {
+  private handleDBExceptions(error: any): never {
     if (error.code === '23505') {
       throw new BadRequestException(error.detail);
     }
     this.logger.error(error);
-    throw new InternalServerErrorException('Unexpected error');
+    throw new InternalServerErrorException('Check server logs');
   }
 
   async deleteAllProducts() {
