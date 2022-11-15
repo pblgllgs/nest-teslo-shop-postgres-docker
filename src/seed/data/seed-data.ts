@@ -32,20 +32,20 @@ export const initialData: SeedData = {
       email: 'user@gmail.com',
       fullname: 'user user',
       roles: ['user'],
-      password: '123qwe',
+      password: '123Qwe',
     },
     {
       email: 'admin@gmail.com',
       fullname: 'admin admin',
       roles: ['admin'],
-      password: '123qwe',
+      password: '123Qwe',
     },
     ,
     {
       email: 'super-user@gmail.com',
       fullname: 'super super',
       roles: ['admin', 'super-user', 'user'],
-      password: '123qwe',
+      password: '123Qwe',
     },
   ],
   products: [
