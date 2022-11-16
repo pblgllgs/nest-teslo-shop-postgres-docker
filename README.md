@@ -58,3 +58,9 @@ http://localhost:3000/api/seed
 ## Environment variables
 
 copy the file _.env.template_ and rename .env.prod, .env... complete de fields with credentials for database
+
+## Swagger
+
+```
+http://localhost:3000/api
+```
